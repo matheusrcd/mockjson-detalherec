@@ -1,10 +1,247 @@
 {  
-   "codigoMensagem":1,
-   "mensagem":"Ok.",
-   "dado":{  
-      "codigo":1,
-      "nome":"comprovante.jpg",
-      "tamanho":879394,
-      "arquivoBase64":"/9j/4AAQSkZJRgABAgEAYABgAAD/7gAOQWRAZAA[...]IAAcBMgACAA1gNBSv2+Vem1lJBCmifYPt4kV/ydf/2Q=="
+   "codigoMensagem": {
+      {  
+         "dado":{  
+            "protocolo":20140700000001189,
+            "situacao":{  
+               "codigo":7,
+               "descricao":"Finalizada não avaliada"
+            },
+            "meioConsumo":{  
+               "codigo":5,
+               "descricao":"Domicílio"
+            },
+            "prazo":"06/11/2077 00:00:00",
+            "dataAbertura":"29/07/2014 15:43:39",
+            "area":{  
+               "codigo":3,
+               "descricao":"Serviços Financeiros"
+            },
+            "assunto":{  
+               "codigo":301,
+               "descricao":"Cartão de Crédito / Cartão de Débito / Cartão de Loja"
+            },
+            "problema":{  
+               "codigo":10000031,
+               "descricao":"Cobrança submetendo a ofensa, constrangimento ou ameaça"
+            },
+            "reclamante":{  
+               "nome":"Nome do Reclamante",
+               "dataNascimento":"10/10/1990",
+               "documento":00100200344,
+               "emails":[  
+                  {  
+                     "email":"reclamante@gmail.com",
+                     "principal":true,
+                     "tipo":"Pessoal"
+                  }
+               ],
+               "telefones":[  
+                  {  
+                     "ddd":"21",
+                     "telefone":"29853751",
+                     "tipo":1
+                  }
+               ],
+               "estado":"RJ",
+               "cidade":"Rio de Janeiro",
+               "logradouro":"Avenida das Américas",
+               "bairro":"Barra da Tijuca",
+               "numeroComplemento":"Edificio Sede - 5 Andar - Sala 524"
+            },
+            "reclamado":{  
+               "nome":"Bradesco Capitalização S.A.",
+               "numeroIdentificacao":20140206000001110,
+               "documento":85766474000100,
+               "estado":"SP",
+               "cidade":"São Paulo",
+               "logradouro":"Avenida Paulista 1415",
+               "bairro":"Bela Vista",
+               "numeroComplemento":"4 andar NR 1415"
+            },
+            "mediador":{  
+               "nome":"Procon Estadual RJ",
+               "numeroIdentificacao":20140102000000560,
+               "documento":55766474000105,
+               "estado":"RJ",
+               "cidade":"Rio de Janeiro",
+               "logradouro":"Rua Gustavo de Lacerda",
+               "bairro":"Centro",
+               "numeroComplemento":"102"
+            },
+            "tramites":[
+               {  
+                  "tipo":{  
+                     "codigo":1,
+                     "descricao":"Abertura da reclamação"
+                  },
+                  "data":"08/01/2014 10:31:21",
+                  "codigo":1,
+                  "autor":"Nome do Reclamante",
+                  "textos":[  
+                     {  
+                        "texto":"N",
+                        "tipo":{  
+                          "codigo":1,
+                          "descricao":"Indicador de Contato com o Fornecedor"
+                        }
+                     },
+                     {  
+                        "texto":"Texto que o consumidor digita sobre a reclamação",
+                        "tipo":{  
+                          "codigo":3,
+                          "descricao":"Descrição da reclamação"
+                        }
+                     },
+                     {  
+                        "texto":"Texto que o consumidor digita sobre o pedido",
+                        "tipo":{  
+                          "codigo":4,
+                          "descricao":"Pedido da reclamação"
+                        }
+                     }
+                  ]
+               },
+               {  
+                  "tipo":{  
+                     "codigo":2,
+                     "descricao":"Recebido pelo fornecedor"
+                  },
+                  "data":"09/01/2014 10:32:51",
+                  "codigo":2,
+                  "autor":"Bradesco Capitalização",
+                  "textos":[  
+                     {  
+                        "texto":"(Sem Detalhes)",
+                        "tipo":{  
+                          "codigo":9,
+                          "descricao":"Texto do Sistema"
+                        }
+                     }
+                  ]
+               },
+               {  
+                  "tipo":{  
+                     "codigo":3,
+                     "descricao":"Complemento da reclamação"
+                  },
+                  "data":"09/01/2014 12:23:37",
+                  "codigo":3,
+                  "autor":"Bradesco Capitalização",
+                  "textos":[  
+                     {  
+                        "texto":"Texto digitado pelo fornecedor",
+                        "tipo":{  
+                          "codigo":5,
+                          "descricao":"Interação Única"
+                        }
+                     }
+                  ],
+                  "anexos":[  
+                     {  
+                        "codigo":1,
+                        "nome":"comprovante.jpg",
+                        "tamanho":879394,
+                        "acao":{  
+                           "rel":"baixar_anexo", "href":"{url-ambiente}/reclamacao/20140100000091189/tramite/3/anexo/1/baixar", "type":"application/json", "method":"GET"
+                        }
+                     }
+                  ]
+               },
+               {  
+                  "tipo":{  
+                     "codigo":4,
+                     "descricao":"Redirecionamento da reclamação"
+                  },
+                  "data":"10/01/2014 15:46:45",
+                  "codigo":4,
+                  "autor":"Bradesco Capitalização",
+                  "textos":[  
+                     {  
+                        "texto":"Texto digitado pelo fornecedor",
+                        "tipo":{  
+                          "codigo":5,
+                          "descricao":"Interação Única"
+                        }
+                     }
+                  ]
+               },
+               {  
+                  "tipo":{  
+                     "codigo":4,
+                     "descricao":"Redirecionamento da reclamação"
+                  },
+                  "data":"10/01/2014 15:47:01",
+                  "codigo":5,
+                  "autor":"Bradesco",
+                  "textos":[  
+                     {  
+                        "texto":"Texto digitado pelo fornecedor",
+                        "tipo":{  
+                          "codigo":5,
+                          "descricao":"Interação Única"
+                        }
+                     }
+                  ]
+               },
+               {  
+                  "tipo":{  
+                     "codigo":5,
+                     "descricao":"Prazo expirado para resposta"
+                  },
+                  "data":"10/02/2014 15:40:32",
+                  "codigo":6,
+                  "autor":"Sistema",
+                  "textos":[  
+                     {  
+                        "texto":"(Sem Detalhes)",
+                        "tipo":{  
+                          "codigo":9,
+                          "descricao":"Texto do Sistema"
+                        }
+                     }
+                  ]
+               },
+               {  
+                  "tipo":{  
+                     "codigo":6,
+                     "descricao":"Prazo expirado para avaliação"
+                  },
+                  "data":"10/02/2014 15:43:39",
+                  "codigo":7,
+                  "autor":"Sistema",
+                  "textos":[  
+                     {  
+                        "texto":"(Sem Detalhes)",
+                        "tipo":{  
+                          "codigo":9,
+                          "descricao":"Texto do Sistema"
+                        }
+                     }
+                  ]
+               }
+            ],
+            "acoes":[  
+                  {  
+                     "rel":"complementar", "href":"{url-ambiente}/reclamacao/20140100000091189/complementar",
+                     "type":"application/json", "method":"POST"
+                  },
+                  {  
+                     "rel":"responder", "href":"{url-ambiente}/reclamacao/20140100000091189/responder",
+                     "type":"application/json", "method":"POST"
+                  },
+                  {  
+                     "rel":"analise_procon", "href":"{url-ambiente}/reclamacao/20140100000091189/recusar",
+                     "type":"application/json", "method":"POST"
+                  },
+                  {  
+                     "rel":"redirecionar", "href":"{url-ambiente}/reclamacao/20140100000091189/redirecionar",
+                     "type":"application/json", "method":"POST"
+                  }
+              ]
+         },
+         "codigoMensagem":1,
+         "mensagem":"Ok."
+      }
    }
 }
